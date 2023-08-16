@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Predicting Azoospermia in Male Reproductive Health</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <style>
+    body {
+      font-family: 'Arimo', sans-serif;
+    }
+    .panel {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .panel h1 { 
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .input-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .input-container input {
+      flex: 1;
+      height: 40px;
+      margin: 5px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-family: 'Hind', sans-serif;
+    }
+    .btn-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 16px;
+    }
+    .btn-exit {
+      background-color: #dc3545;
+    }
+    .btn-clear {
+      background-color: #ffc107;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Predicting Azoospermia in Male Reproductive Health</h1>
+    <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict') }}" method="post">
+      <div class="input-container">
+        <input type="text" name="semen.V" placeholder="semen.V" required="required" />
+        <input type="text" name="Semen.PH" placeholder="Semen.PH" required="required" />
+        <input type="text" name="Semen.fruc" placeholder="Semen.fruc" required="required" />
+        <input type="text" name="LH" placeholder="LH" required="required" />
+        <input type="text" name="TESE" placeholder="TESE" required="required" />
+        <input type="text" name="T.sono" placeholder="T.sono" required="required" />
+        <input type="text" name="FSH" placeholder="FSH" required="required" />
+        <input type="text" name="T.Volume" placeholder="T.Volume" required="required" />
+        <input type="text" name="T.Length" placeholder="T.Length" required="required" />
+      </div>
+      <div class="btn-container">
+        <button type="submit" class="btn btn-primary btn-predict">Predict</button>
+        <button type="button" class="btn btn-clear">Clear</button>
+      </div>
+    </form>
+    <br>
+    <br>
+    {{ prediction_text }}
+  </div>
+</body>
+</html>
