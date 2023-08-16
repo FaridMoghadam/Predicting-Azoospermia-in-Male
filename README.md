@@ -3,9 +3,7 @@
 ________________________________________________________________________________________
 
 
-
-![Alt text]([https://raw.githubusercontent.com/FaridMoghadam/Tehran-Air-Pollution-map-/main/Tehran%20Air%20Pollution.jpg](https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/blob/main/images/WebPage.png?raw=true) "Optional title")
-
+![image](https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/42d3184c-2374-40e7-b977-a42831b767fa)
 
 
 ## Azoospermia is the absence of sperm in semen. It is a major concern worldwide, and the male partner contributes to about 50% of cases. There are two main types of azoospermia: obstructive azoospermia (OA) and non-obstructive azoospermia (NOA).
@@ -34,15 +32,15 @@ However, no single test is always accurate in distinguishing between OA and NOA.
 The study discussed in the text developed a model that uses clinical factors and findings in sonographic imaging and semen analysis to determine the subtype of azoospermia in patients with a high predictive value. This model has the potential to be a more reliable and affordable way to differentiate OA from NOA.
 
 
-![Alt text]([https://raw.githubusercontent.com/FaridMoghadam/Tehran-Air-Pollution-map-/main/Tehran%20Air%20Pollution.jpg](https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/blob/main/images/Correlation_Heatmap.png?raw=true) "Optional title")
+![image](https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/297859bd-c88f-4cc0-8500-0e08ab38eab2)
 
 
 
 The study also had some limitations. For example, it did not assess the different types of NOA separately. Additionally, a single testis biopsy cannot reveal the whole pattern of spermatogenesis and may sometimes lead to errors in diagnosis.
 
 
-![Alt text]([https://raw.githubusercontent.com/FaridMoghadam/Tehran-Air-Pollution-map-/main/Tehran%20Air%20Pollution.jpg](https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/blob/main/images/DistributionofSomeFeatureRanges.png?raw=true) "Optional title")
 
+![image](https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/f4717224-1449-4a7f-bb85-39a09d8633d7)
 
 
 Overall, the study provides valuable insights into the challenges of differentiating between OA and NOA. The development of more accurate and affordable diagnostic tools is essential for improving the care of patients with azoospermia.
