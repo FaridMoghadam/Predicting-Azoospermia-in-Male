@@ -28,7 +28,7 @@ def predict():
 
 
     return render_template('index.html', 
-                           prediction_text="The output is {}".format(output))
+                           prediction_text="This Person is {}".format(output))
 
 if __name__ == "__main__":
     app.run(debug=True)
