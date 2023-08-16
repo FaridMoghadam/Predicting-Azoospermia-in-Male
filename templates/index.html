@@ -12,12 +12,13 @@
       font-family: 'Arimo', sans-serif;
     }
     .panel {
-      max-width: 500px;
+      max-width: 700px;
       margin: 0 auto;
-      padding: 20px;
+      padding: 50px;
       background-color: #f7f7f7;
       border: 1px solid #ccc;
       border-radius: 5px;
+      
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .panel h1 { 
@@ -29,35 +30,38 @@
       display: flex;
       flex-wrap: wrap;
     }
-    .input-container input {
+    .input-container input[type="text"] {
       flex: 1;
-      height: 40px;
+      height: 30px;
       margin: 5px;
-      padding: 10px;
+      padding: 5px;
       border: 1px solid #ccc;
       border-radius: 3px;
       font-family: 'Hind', sans-serif;
     }
     .btn-container {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 30px;
     }
     .btn {
       display: inline-block;
-      padding: 10px 20px;
+      padding: 10px 60px; /* Slightly bigger buttons */
       background-color: #007bff;
       color: #fff;
       border: none;
       border-radius: 3px;
       cursor: pointer;
-      font-family: 'Open Sans Condensed', sans-serif;
+      font-family: 'Hind', sans-serif;
       font-size: 16px;
     }
     .btn-exit {
       background-color: #dc3545;
     }
     .btn-clear {
-      background-color: #ffc107;
+      background-color: #74736f;
+    }
+    .center-text {
+      text-align: center; /* Center prediction text */
     }
   </style>
 </head>
@@ -67,16 +71,22 @@
     <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict') }}" method="post">
       <div class="input-container">
-        <input type="text" name="semen.V" placeholder="semen.V" required="required" />
-        <input type="text" name="Semen.PH" placeholder="Semen.PH" required="required" />
-        <input type="text" name="Semen.fruc" placeholder="Semen.fruc" required="required" />
-        <input type="text" name="LH" placeholder="LH" required="required" />
-        <input type="text" name="Testosterone" placeholder="Testosterone" required="required" />
-        <input type="text" name="T.sono" placeholder="T.sono" required="required" />
-        <input type="text" name="FSH" placeholder="FSH" required="required" />
-        <input type="text" name="T.Volume" placeholder="T.Volume" required="required" />
-        <input type="text" name="T.Length" placeholder="T.Length" required="required" />
-        <input type="text" name="BMI" placeholder="BMI" required="required" />
+        <div class="input-group part1"> Part 1 : 
+          <input type="text" name="semen.V" placeholder="semen.V" required="required" />
+          <input type="text" name="Semen.PH" placeholder="Semen.PH" required="required" />
+          <input type="text" name="Semen.fruc" placeholder="Semen.fruc" required="required" />
+        </div>
+        <div class="input-group part2">Part 2 :
+          <input type="text" name="LH" placeholder="LH" required="required" />
+          <input type="text" name="FSH" placeholder="FSH" required="required" />
+          <input type="text" name="Testosterone" placeholder="Testosterone" required="required" />
+        </div>
+        <div class="input-group part3">Part 3 : 
+          <input type="text" name="T.sono" placeholder="T.sono" required="required" />
+          <input type="text" name="T.Volume" placeholder="T.Volume" required="required" />
+          <input type="text" name="T.Length" placeholder="T.Length" required="required" />
+          <input type="text" name="BMI" placeholder="BMI" required="required" />
+        </div>
       </div>
       <div class="btn-container">
         <button type="submit" class="btn btn-primary btn-predict">Predict</button>
@@ -85,7 +95,15 @@
     </form>
     <br>
     <br>
-    {{ prediction_text }}
+    <div class="center-text">{{ prediction_text }}</div>
   </div>
+
+  <script>
+    document.querySelector('.btn-clear').addEventListener('click', function() {
+      document.querySelectorAll('.input-container input[type="text"]').forEach(input => {
+        input.value = '';
+      });
+    });
+  </script>
 </body>
 </html>
