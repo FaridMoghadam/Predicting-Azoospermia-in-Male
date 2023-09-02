@@ -33,10 +33,3 @@ def predict():
 if __name__ == "__main__":
     app.run(debug=True)
 
-
-
-
-
-    #1-1-1
-    #1-1111-111
-    #111-1111-1111
