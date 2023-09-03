@@ -3,7 +3,7 @@
 ________________________________________________________________________________________
 
 
-<img src="https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/42d3184c-2374-40e7-b977-a42831b767fa" alt="image" width="70%">
+<img src="https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/bd246991-b2c6-464a-89ff-990a9adf4e8b" alt="image" width="70%">
 <br>
 
 
@@ -39,11 +39,12 @@ The study also had some limitations. For example, it did not assess the differen
 
 
 <br>
-<img src="https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/297859bd-c88f-4cc0-8500-0e08ab38eab2" alt="image" width="60%">
+<img src="https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/b2d01956-2a48-42d3-aad5-cdd9b3f45e52" alt="image" width="60%">
 <br>
 
+
 <br>
-<img src="https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/f4717224-1449-4a7f-bb85-39a09d8633d7" alt="image" width="80%">
+<img src="https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/0af4198e-2226-432d-8ae2-8467a74d9954" alt="image" width="80%">
 <br>
 <br>
 
