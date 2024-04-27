@@ -16,14 +16,14 @@ def home():
 @app.route("/predict", methods=["POST"])
 def predict():
     
-    # Get data from form
+    # Get data from form.
     features = [float(x) for x in request.form.values()]
     final_features = [np.array(features)]
     
-    # Make prediction
+    # Make prediction.
     prediction = model.predict(final_features)
 
-    # Map prediction to output labels
+    # Map prediction to output labels.
     output = "non-obstructive" if prediction[0] == 0 else "obstructive"
 
 
