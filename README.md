@@ -53,14 +53,13 @@ Overall, the study provides valuable insights into the challenges of differentia
 
 
 <br>
-<img src="https://raw.githubusercontent.com/FaridMoghadam/Predicting-Azoospermia-in-Male/main/images/Receiver%20Operating%20Characteristic%20(ROC)%20Curve.png" alt="image" width="80%">
+<img src="https://raw.githubusercontent.com/FaridMoghadam/Predicting-Azoospermia-in-Male/main/images/Receiver%20Operating%20Characteristic%20(ROC)%20Curve.png" alt="image" width="60%">
 <br>
 <br>
 
 -
 
-Update : 2024 27 April
-
+last update : 2024 27 April
 
 
 
