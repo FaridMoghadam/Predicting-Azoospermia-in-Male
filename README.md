@@ -52,6 +52,11 @@ The study also had some limitations. For example, it did not assess the differen
 Overall, the study provides valuable insights into the challenges of differentiating between OA and NOA. The development of more accurate and affordable diagnostic tools is essential for improving the care of patients with azoospermia.
 
 
+<br>
+<img src="https://raw.githubusercontent.com/FaridMoghadam/Predicting-Azoospermia-in-Male/main/images/Receiver%20Operating%20Characteristic%20(ROC)%20Curve.png" alt="image" width="80%">
+<br>
+<br>
+
 -
 
 Update : 2024 27 April
