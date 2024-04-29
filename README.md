@@ -3,7 +3,7 @@
 ________________________________________________________________________________________
 
 
-<img src="https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/assets/8829612/bd246991-b2c6-464a-89ff-990a9adf4e8b" alt="image" width="70%">
+<img src="https://github.com/FaridMoghadam/Predicting-Azoospermia-in-Male/blob/main/images/Main%20Page.png?raw=true" alt="image" width="70%">
 <br>
 
 
